@@ -150,12 +150,13 @@ let x = 12341234;
 
 The valid type of js values are
 
-- numbers
-- strings
-- functions
-- objects
-- arrays
-- undefined
-- null
-- Infinity
-- -Infinity
+- numbers, `1`
+- strings, `"", '', `\``
+- functions, `function () {}, () => {}`
+- objects, `{}`
+- arrays, `[]`
+- `undefined`
+- `null`
+- `Infinity`
+- `-Infinity`
+- `NaN`
